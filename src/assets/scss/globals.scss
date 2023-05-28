@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,700&family=Montserrat+Alternates:wght@400;500;600;700;800&family=Roboto&display=swap');
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: 18px;
+  background: $primary-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
